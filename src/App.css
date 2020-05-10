@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  background-image: linear-gradient(to bottom left, #f91eff, #66dbf2);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Calculator {
+  display: grid;
+  width:260px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, minmax(60px, auto));
+}

@@ -1,0 +1,14 @@
+.Btn {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: #EFEFF0;
+}
+.Btn:hover {
+  background-color: #FBFBFB;
+}
+
+.lg-Btn {
+  grid-column: span 2;
+}
